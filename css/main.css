@@ -1,0 +1,73 @@
+/**
+*   General/Utility
+*/
+
+html {
+  height: 100%
+}
+
+html, body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2C2C2C;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+}
+
+.container > .flex {
+  width: 100%;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#result {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
